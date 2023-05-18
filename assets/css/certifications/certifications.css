@@ -1,0 +1,13 @@
+.certifications {
+    border-bottom: 6px groove #706F6D;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    margin-left: 25%;
+}
+
+.certifications__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+}

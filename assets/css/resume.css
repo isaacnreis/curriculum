@@ -1,0 +1,9 @@
+.resume {
+    font-size: 1.4rem;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 1.5rem;
+}

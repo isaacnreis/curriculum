@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    background-color: #afafaf;
+}
+
+body {
+    background-color: #FFFDED;
+    color: #1B1B1B;
+    padding: 0 2rem;
+    max-width: 992px;
+    margin: 1rem auto;
+    border-left: 6px groove #706F6D;
+    border-bottom: 6px groove #706F6D;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-family: 'Philosopher', sans-serif;
+    text-transform: uppercase;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.columnL {
+    width: 40%;
+}
+
+.columnR {
+width: 60%;
+}
+
+.subtitle {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+}
+
+.icon {
+    background: none;
+    width: 1.6rem;
+    transform: rotate(180deg);
+    vertical-align: middle;
+}
+
+footer {
+    text-align: center;
+    margin: 1rem 0;
+}

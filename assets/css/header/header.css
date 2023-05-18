@@ -1,0 +1,32 @@
+.header {
+    align-items: center;
+    display: flex;
+    gap: 1vw;
+    border-bottom: 6px groove #706F6D;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.header__image {
+    width: 25vw;
+    border: 1px solid #706F6D;
+}
+
+.header__texts {
+    width: 100%;
+}
+
+.header__function {
+    font-weight: 300;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header__name {
+    font-size: 10rem;
+}
+
+.header__lastName {
+    font-size: 10rem;
+}

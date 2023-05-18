@@ -1,0 +1,10 @@
+.about {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 6px groove #706F6D;
+}
+
+.about__text {
+    font-size: 1.1rem;
+    text-align: justify;
+}
