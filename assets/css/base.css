@@ -44,7 +44,7 @@ h1 {
 }
 
 .columnR {
-width: 60%;
+    width: 60%;
 }
 
 .subtitle {
@@ -64,4 +64,46 @@ width: 60%;
 footer {
     text-align: center;
     margin: 1rem 0;
+}
+
+@media screen and (max-width: 899px) {
+    .subtitle {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 1rem;
+       }
+
+    .subtitle {
+        font-size: 1.4rem;
+    }
+
+    .icon {
+        width: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   body {
+    padding: 0 0.5rem;
+   }
+
+   .subtitle {
+    text-align: center;
+    }
+
+   .principal {
+    flex-direction: column;
+    }
+
+    .columnL {
+        width: 100%;
+    }
+    
+    .columnR {
+        width: 100%;
+    }
 }

@@ -8,6 +8,13 @@
 .skills__list {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.8rem;
     font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .skills {
+        margin-left: 0;
+        text-align: center;
+    }
 }

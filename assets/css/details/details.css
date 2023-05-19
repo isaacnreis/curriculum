@@ -7,3 +7,9 @@
     gap: 2rem;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .details {
+        flex-direction: column;
+    }
+}

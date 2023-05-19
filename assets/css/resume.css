@@ -7,3 +7,16 @@
     text-align: justify;
     padding: 1.5rem;
 }
+
+@media screen and (max-width: 768px) {
+    .resume {
+        font-size: 1.1rem;
+        padding: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .resume {
+        display: none;
+    }
+}
